@@ -27,7 +27,7 @@ int **allocate_2d_array(int num_rows, int num_cols, int init_value) {
     }
     for (int i = 0; i < num_rows; i++)
     {
-        for (int j = 0; j < num_rows; j++)
+        for (int j = 0; j < num_cols; j++)
         {
             arr2d[i][j] = init_value;
         }
